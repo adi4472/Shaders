@@ -93,7 +93,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Emission_Intensity: 2.05
+    - _Emission_Intensity: 1.13
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -106,11 +106,14 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _speed: 5
+    - _speed: 1.92
+    - _speed_max: 40.08
+    - _speed_min: 20
     m_Colors:
     - Color_5FF3CEF1: {r: 0.5188679, g: 0.31942832, b: 0.022027401, a: 0.7843137}
     - _Color: {r: 0.10215378, g: 1, b: 0, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _randomness: {r: -0.1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &3922190958278539214
 MonoBehaviour:
